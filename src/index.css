@@ -1,0 +1,39 @@
+
+/* styling the body tag */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(62deg, #cfdfef 0%, #f0e8f7 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* styling the scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f1dda1;
+  border-radius: 10px;
+  height: 10px;
+}
+
+
+
+/* using grid layout in calculator buttons */
+/* a specific style to '0' button on Calculator to make it span two colums */
+.card16{
+  grid-column: 1 / 3;
+}
